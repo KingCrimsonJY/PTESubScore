@@ -19,7 +19,7 @@
 
 (function() {
     'use strict';
-1
+test
     function isScorePage() {
         return /^https:\/\/mypte\.pearsonpte\.com\/my-activity\/test-score\/[a-z0-9]+$/.test(location.href);
     }
