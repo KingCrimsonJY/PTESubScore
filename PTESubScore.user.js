@@ -4,7 +4,7 @@
 // @version      1.0.0
 // @icon         https://mypte.pearsonpte.com/favicon.ico
 // @namespace    https://greasyfork.org/zh-CN/scripts/401359
-// @description  查看具体小分以及包含的题型
+// @description  查看PTEA具体小分以及包含的题型
 // @license      MIT
 // @match        https://mypte.pearsonpte.com/*
 // @run-at       document-end
@@ -13,13 +13,12 @@
 // @grant        GM_getValue
 // @require      https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js
 // @connect      api.mypte.pearsonpte.com
-// @updateURL    https://raw.githubusercontent.com/KingCrimsonJY/PTESubScore/main/PTESubScore.user.js
-// @downloadURL  https://raw.githubusercontent.com/KingCrimsonJY/PTESubScore/main/PTESubScore.user.js
+// @downloadURL  https://update.greasyfork.org/scripts/546100/PTESubScore.user.js
+// @updateURL    https://update.greasyfork.org/scripts/546100/PTESubScore.meta.js
 // ==/UserScript==
 
 (function() {
     'use strict';
-test
     function isScorePage() {
         return /^https:\/\/mypte\.pearsonpte\.com\/my-activity\/test-score\/[a-z0-9]+$/.test(location.href);
     }
