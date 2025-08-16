@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PTESubScore
 // @author       小红书743556887
-// @version      1.0
+// @version      1.0.0
 // @description  查看具体小分以及包含的题型
 // @license      MIT
 // @match        https://mypte.pearsonpte.com/*
@@ -11,7 +11,8 @@
 // @grant        GM_getValue
 // @require      https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js
 // @connect      api.mypte.pearsonpte.com
-// @updateURL    https://openuserjs.org/meta/KingCrimson/PTESubScore.js
+// @updateURL    https://raw.githubusercontent.com/KingCrimsonJY/PTESubScore/main/PTESubScore.user.js
+// @downloadURL  https://raw.githubusercontent.com/KingCrimsonJY/PTESubScore/main/PTESubScore.user.js
 // ==/UserScript==
 
 (function() {
