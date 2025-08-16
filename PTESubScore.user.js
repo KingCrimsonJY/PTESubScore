@@ -2,6 +2,8 @@
 // @name         PTESubScore
 // @author       小红书743556887
 // @version      1.0.0
+// @icon         https://bbs.binmt.cc/favicon.ico
+// @namespace    https://greasyfork.org/zh-CN/scripts/401359
 // @description  查看具体小分以及包含的题型
 // @license      MIT
 // @match        https://mypte.pearsonpte.com/*
