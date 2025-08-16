@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PTESubScore
 // @author       小红书743556887
-// @version      1.0.0
+// @version      1.0.1
 // @icon         https://mypte.pearsonpte.com/favicon.ico
 // @namespace    https://greasyfork.org/zh-CN/scripts/401359
 // @description  查看PTEA具体小分以及包含的题型
