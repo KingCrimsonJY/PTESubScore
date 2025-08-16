@@ -13,11 +13,13 @@
 // @grant        GM_getValue
 // @require      https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js
 // @connect      api.mypte.pearsonpte.com
+// @downloadURL  https://update.greasyfork.org/scripts/546100/PTESubScore.user.js
+// @updateURL    https://update.greasyfork.org/scripts/546100/PTESubScore.meta.js
 // ==/UserScript==
 
 (function() {
     'use strict';
-
+    
     function isScorePage() {
         return /^https:\/\/mypte\.pearsonpte\.com\/my-activity\/test-score\/[a-z0-9]+$/.test(location.href);
     }
